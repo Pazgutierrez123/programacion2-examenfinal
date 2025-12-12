@@ -77,4 +77,22 @@ git remote add origin https://github.com/TU_USUARIO/LeadsApp_MVVM.git
 git push -u origin main
 ```
 
-No olvides completar la descripción del proyecto en GitHub y adjuntar en el repositorio el documento de pruebas (`docs/pruebas.md`) y las capturas de pantalla.
+## Documentacion del proyecto
+
+## 📸 Capturas del Proyecto
+
+### 🖼️ Imagen 1
+![Imagen 1](https://raw.githubusercontent.com/Pazgutierrez123/programacion2-examenfinal/main/images/Imagen%201.png)
+
+### 🖼️ Imagen 2
+![Imagen 2](https://raw.githubusercontent.com/Pazgutierrez123/programacion2-examenfinal/main/images/Imagen%202.png)
+
+### 🖼️ Imagen 3
+![Imagen 3](https://raw.githubusercontent.com/Pazgutierrez123/programacion2-examenfinal/main/images/Imagen%203.png)
+
+### 🖼️ Imagen 4
+![Imagen 4](https://raw.githubusercontent.com/Pazgutierrez123/programacion2-examenfinal/main/images/Imagen%204.png)
+
+### 🖼️ Imagen 5
+![Imagen 5](https://raw.githubusercontent.com/Pazgutierrez123/programacion2-examenfinal/main/images/Imagen%205.png)
+
