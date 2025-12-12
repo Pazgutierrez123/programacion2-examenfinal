@@ -1,0 +1,195 @@
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:15: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\res\layout\activity_main.xml:22: Warning: Replace the <fragment> tag with FragmentContainerView. [FragmentTagUsage from androidx.fragment]
+    <fragment
+     ~~~~~~~~
+
+   Explanation for issues of type "FragmentTagUsage":
+   FragmentContainerView replaces the <fragment> tag as the preferred         
+          way of adding fragments via XML. Unlike the <fragment> tag,
+   FragmentContainerView                 uses a normal FragmentTransaction
+   under the hood to add the initial fragment,                 allowing
+   further FragmentTransaction operations on the FragmentContainerView        
+           and providing a consistent timing for lifecycle events.
+
+   https://developer.android.com/reference/androidx/fragment/app/FragmentContainerView.html
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.fragment
+   Feedback: https://issuetracker.google.com/issues/new?component=460964
+
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\AndroidManifest.xml:28: Warning: <uses-feature> tag appears after <application> tag [ManifestOrder]
+    <uses-feature
+     ~~~~~~~~~~~~
+
+   Explanation for issues of type "ManifestOrder":
+   The <application> tag should appear after the elements which declare which
+   version you need, which features you need, which libraries you need, and so
+   on. In the past there have been subtle bugs (such as themes not getting
+   applied correctly) when the <application> tag appears before some of these
+   other elements, so it's best to order your manifest in the logical
+   dependency order.
+
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:51: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.13.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:52: Warning: A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:53: Warning: A newer version of com.google.android.material:material than 1.12.0 is available: 1.13.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.12.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:54: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:55: Warning: A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0 [GradleDependency]
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:58: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.8.4 is available: 2.10.0 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:59: Warning: A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.8.4 is available: 2.10.0 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.8.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:60: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.4 is available: 2.10.0 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:63: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.8.4 [GradleDependency]
+    implementation 'androidx.room:room-runtime:2.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:64: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.8.4 [GradleDependency]
+    kapt 'androidx.room:room-compiler:2.6.1'
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:65: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.8.4 [GradleDependency]
+    implementation 'androidx.room:room-ktx:2.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:77: Warning: A newer version of androidx.navigation:navigation-fragment-ktx than 2.8.3 is available: 2.9.6 [GradleDependency]
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.8.3'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:78: Warning: A newer version of androidx.navigation:navigation-ui-ktx than 2.8.3 is available: 2.9.6 [GradleDependency]
+    implementation 'androidx.navigation:navigation-ui-ktx:2.8.3'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:81: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:82: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\build.gradle:64: Warning: This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp [KaptUsageInsteadOfKsp]
+    kapt 'androidx.room:room-compiler:2.6.1'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "KaptUsageInsteadOfKsp":
+   KSP is a more efficient replacement for kapt. For libraries that support
+   both, KSP should be used to improve build times.
+
+   https://developer.android.com/studio/build/migrate-to-ksp
+
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.edit_lead appears to be unused [UnusedResources]
+    <string name="edit_lead">Editar lead</string>
+            ~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\AndroidManifest.xml:3: Warning: Should explicitly set android:icon, there is no default [MissingApplicationIcon]
+    <application
+     ~~~~~~~~~~~
+
+   Explanation for issues of type "MissingApplicationIcon":
+   You should set an icon for the application as whole because there is no
+   default. This attribute must be set as a reference to a drawable resource
+   containing the image (for example @drawable/icon).
+
+   https://developer.android.com/studio/publish/preparing#publishing-configure
+
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\res\layout\fragment_lead_form.xml:11: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\res\layout\fragment_lead_form.xml:35: Warning: Hardcoded string "Nombre", should use @string resource [HardcodedText]
+            android:hint="Nombre"
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\res\layout\fragment_lead_form.xml:51: Warning: Hardcoded string "Teléfono", should use @string resource [HardcodedText]
+            android:hint="Teléfono"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\res\layout\fragment_lead_form.xml:68: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+            android:hint="Email"
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\HOME\Downloads\LeadsApp_MVVM\LeadsApp_MVVM\app\src\main\res\layout\fragment_lead_form.xml:85: Warning: Hardcoded string "Notas", should use @string resource [HardcodedText]
+            android:hint="Notas"
+            ~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 26 warnings

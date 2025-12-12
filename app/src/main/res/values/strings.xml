@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LeadsApp MVVM</string>
+    <string name="lead_list_title">Leads</string>
+    <string name="add_lead">Agregar lead</string>
+    <string name="edit_lead">Editar lead</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="save">Guardar</string>
+    <string name="sync">Sincronizar</string>
+    <string name="logs">Logs</string>
+</resources>

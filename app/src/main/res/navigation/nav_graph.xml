@@ -1,0 +1,32 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/leadListFragment">
+
+    <fragment
+        android:id="@+id/leadListFragment"
+        android:name="com.example.leadsapp.ui.list.LeadListFragment"
+        android:label="@string/lead_list_title">
+        <action
+            android:id="@+id/action_leadListFragment_to_leadFormFragment"
+            app:destination="@id/leadFormFragment" />
+        <action
+            android:id="@+id/action_leadListFragment_to_logsFragment"
+            app:destination="@id/logsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/leadFormFragment"
+        android:name="com.example.leadsapp.ui.form.LeadFormFragment"
+        android:label="@string/add_lead">
+        <argument
+            android:name="leadId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/logsFragment"
+        android:name="com.example.leadsapp.ui.logs.LogsFragment"
+        android:label="@string/logs" />
+</navigation>

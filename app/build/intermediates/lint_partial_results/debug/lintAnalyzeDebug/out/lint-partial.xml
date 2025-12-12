@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.leadsapp.ui.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.edit_lead"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="175"
+            endLine="5"
+            endColumn="29"
+            endOffset="191"/>
+        <entry
+            name="model"
+            string="attr[colorPrimary(R),actionBarSize(R)],color[purple_200(U),purple_500(U),purple_700(U),teal_200(U),teal_700(U),black(U),white(U)],id[toolbar(U),nav_host_fragment(U),imagePhoto(U),buttonTakePhoto(U),layoutName(U),editName(U),layoutPhone(U),editPhone(U),layoutEmail(U),editEmail(U),layoutNotes(U),editNotes(U),buttonSave(U),buttonSync(U),recyclerLeads(U),fabAdd(U),recyclerLogs(U),textName(U),textPhone(U),textSyncStatus(U),textType(U),textMessage(U),textTimestamp(U),action_logs(U),nav_graph(D),leadListFragment(U),action_leadListFragment_to_leadFormFragment(R),leadFormFragment(U),action_leadListFragment_to_logsFragment(R),logsFragment(U)],layout[activity_main(U),fragment_lead_form(U),fragment_lead_list(U),item_lead(U),fragment_logs(U),item_log(U)],menu[menu_lead_list(U)],navigation[nav_graph(U)],string[app_name(U),take_photo(U),save(U),sync(U),add_lead(U),logs(U),lead_list_title(U),edit_lead(D)],style[Theme_LeadsApp(U),Theme_MaterialComponents_DayNight_NoActionBar(R)],xml[file_paths(U)];27^0^1^9^2e,28^30^b^c^d^f^11^31^13^32^15,29^2a^33,2a^2f^b^1a^1b,2c^1d^1e,2d^34,2e^22^35^24^26^33^34,37^38^3^4^8^5^6^7^2;;;"/>
+    </map>
+
+</incidents>

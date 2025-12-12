@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.leadsapp-release-53:/navigation_nav_graph.xml.flat",
+        "source": "com.example.leadsapp-main-54:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.leadsapp-release-53:/layout_fragment_lead_list.xml.flat",
+        "source": "com.example.leadsapp-main-54:/layout/fragment_lead_list.xml"
+    },
+    {
+        "merged": "com.example.leadsapp-release-53:/menu_menu_lead_list.xml.flat",
+        "source": "com.example.leadsapp-main-54:/menu/menu_lead_list.xml"
+    },
+    {
+        "merged": "com.example.leadsapp-release-53:/layout_activity_main.xml.flat",
+        "source": "com.example.leadsapp-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.leadsapp-release-53:/xml_file_paths.xml.flat",
+        "source": "com.example.leadsapp-main-54:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.leadsapp-release-53:/layout_item_log.xml.flat",
+        "source": "com.example.leadsapp-main-54:/layout/item_log.xml"
+    },
+    {
+        "merged": "com.example.leadsapp-release-53:/layout_item_lead.xml.flat",
+        "source": "com.example.leadsapp-main-54:/layout/item_lead.xml"
+    },
+    {
+        "merged": "com.example.leadsapp-release-53:/layout_fragment_logs.xml.flat",
+        "source": "com.example.leadsapp-main-54:/layout/fragment_logs.xml"
+    },
+    {
+        "merged": "com.example.leadsapp-release-53:/layout_fragment_lead_form.xml.flat",
+        "source": "com.example.leadsapp-main-54:/layout/fragment_lead_form.xml"
+    }
+]
